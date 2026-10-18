@@ -185,6 +185,12 @@
         "visibility": "private",
         "live_url": "https://vaibhav-shop.vercel.app",
         "admin_url": "https://vaibhav-shop.vercel.app/vaibhavshop"
+      },
+      {
+        "name": "byte-mode",
+        "description": "Uncompromising agentic engineering specification, Byte OS protocol, and multi-IDE deployment suite for Google Antigravity, Cursor, and Claude Code",
+        "visibility": "public",
+        "repository_url": "https://github.com/VaibhavJaat421/byte-mode"
       }
     ]
   }

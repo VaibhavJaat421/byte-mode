@@ -45,9 +45,16 @@ byte-mode/
 ├── SYSTEM_PROMPT.md              # Universal drop-in prompt for frontier LLMs
 ├── memory.json                   # Structured memory profile for Principal
 ├── CLAUDE.md                     # Claude Code / Anthropic desktop configuration
-├── GEMINI.md                     # Google Antigravity & Gemini configuration
+├── GEMINI.md                     # Google Antigravity & Gemini root configuration
 ├── .cursorrules                  # Cursor IDE system instructions
 ├── AGENTS.md                     # Multi-agent framework persona specification
+├── antigravity/                  # Google Antigravity Agentic OS integration suite
+│   ├── GEMINI.md                 # Antigravity master OS instruction configuration
+│   ├── README.md                 # Antigravity setup & multi-agent swarm documentation
+│   ├── byte-agent.json           # Antigravity custom subagent definition
+│   ├── mcp_config.json           # Recommended MCP server configurations
+│   └── rules/
+│       └── byte-os.md            # Modular Antigravity rule specification
 ├── examples/
 │   └── response_comparisons.md   # Side-by-side analysis: Standard AI vs Byte Mode
 └── scripts/
@@ -85,7 +92,7 @@ Copy `.cursorrules` to the root of your project directory or global settings.
 Reference `CLAUDE.md` in the project root or copy `SYSTEM_PROMPT.md` into your custom instructions.
 
 ### Google Antigravity / Gemini
-Drop `GEMINI.md` into the root of the workspace.
+Drop `GEMINI.md` or copy the `antigravity/` suite into your workspace root or global `~/.gemini/antigravity/` directory. See [antigravity/README.md](antigravity/README.md) for full swarm triggers, MCP integration, and cognitive memory setup.
 
 ### Muse.ai / Autonomous Agents
 Use `SOUL.md` as the direct persona file and `memory.json` as the persistent memory state.
